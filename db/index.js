@@ -15,3 +15,6 @@ mongoose
   .catch((err) => {
     console.error("Error connecting to mongo: ", err);
   });
+
+const celeb = require("../models/Celebrity.model")
+const movie = require("../models/Movie.model")
